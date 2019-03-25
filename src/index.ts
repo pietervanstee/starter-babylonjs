@@ -1,3 +1,5 @@
+import 'pepjs'
+
 import { HemisphericLight, Vector3, MeshBuilder, PBRMetallicRoughnessMaterial, Color3, SceneLoader } from '@babylonjs/core'
 import { createEngine, createScene, createPBRSkybox, createArcRotateCamera } from './babylon'
 

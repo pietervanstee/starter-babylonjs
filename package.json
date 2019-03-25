@@ -8,15 +8,16 @@
     "test": "react-scripts test"
   },
   "dependencies": {
-    "@babylonjs/core": "preview",
-    "@babylonjs/inspector": "preview",
-    "@babylonjs/loaders": "preview"
+    "@babylonjs/core": "^4.0.0-beta.3",
+    "@babylonjs/inspector": "^4.0.0-beta.3",
+    "@babylonjs/loaders": "^4.0.0-beta.3",
+    "pepjs": "^0.4.3"
   },
   "devDependencies": {
-    "@types/jest": "24.0.9",
-    "@types/node": "11.10.4",
-    "react-scripts": "2.1.5",
-    "typescript": "3.3.3333"
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.11.6",
+    "react-scripts": "^2.1.8",
+    "typescript": "^3.3.4000"
   },
   "eslintConfig": {
     "extends": "react-app"
