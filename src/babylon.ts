@@ -45,7 +45,7 @@ export const createArcRotateCamera = () => {
     const startBeta = 1.4
     const startRadius = 100
     const startPosition = new Vector3(0, 10, 0)
-    const camera = new ArcRotateCamera(name, startAlpha, startBeta, startRadius, startPosition, scene, true)
+    const camera = new ArcRotateCamera('camera', startAlpha, startBeta, startRadius, startPosition, scene, true)
     camera.attachControl(canvas, false)
 
     // Set some basic camera settings

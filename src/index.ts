@@ -17,7 +17,7 @@ const main = async () => {
   createArcRotateCamera()
 
 
-  const light = new HemisphericLight(name, Vector3.Zero(), scene)
+  const light = new HemisphericLight('light', Vector3.Zero(), scene)
   light.intensity = 0.3
 
 
@@ -45,7 +45,7 @@ const main = async () => {
   // cubeMesh.position = new Vector3(5, 2, 5)
 
   // load a gltf model
-  const container = await SceneLoader.LoadAssetContainerAsync('https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/', 'Monster/glTF-Binary/Monster.glb', scene)
+  const container = await SceneLoader.LoadAssetContainerAsync('https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/', 'MetalRoughSpheres/glTF-Binary/MetalRoughSpheres.glb', scene)
   container.addAllToScene()
   container.meshes[0].position.x = 30
 
