@@ -1,0 +1,17 @@
+{
+  "name": "starter-babylonjs",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2",
+    "vite": "^2.5.1"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^5.0.0-alpha.38",
+    "@babylonjs/loaders": "^5.0.0-alpha.38"
+  }
+}
