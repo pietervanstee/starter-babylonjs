@@ -4,7 +4,7 @@ import '@babylonjs/loaders/glTF/2.0'
 
 import './style.css'
 
-const canvas: HTMLCanvasElement = document.getElementById('app') as HTMLCanvasElement
+const canvas = document.getElementById('app')
 const engine = createEngine(canvas)
 const scene = createScene()
 

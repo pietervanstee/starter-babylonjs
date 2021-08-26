@@ -1,12 +1,12 @@
 import { Engine, Scene, ArcRotateCamera, Vector3, CubeTexture, Color4, ImageProcessingConfiguration } from '@babylonjs/core'
 
-export let canvas: HTMLCanvasElement
-export let engine: Engine
-export let scene: Scene
-export let camera: ArcRotateCamera
-let handleResize: any
+export let canvas
+export let engine
+export let scene
+export let camera
+let handleResize
 
-export const createEngine = (hostCanvas: HTMLCanvasElement) => {
+export const createEngine = (hostCanvas) => {
   canvas = hostCanvas
   engine = new Engine(canvas, true, {}, true)
 

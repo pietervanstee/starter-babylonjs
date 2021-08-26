@@ -1,13 +1,12 @@
 {
   "name": "starter-babylonjs",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "start": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "serve": "vite preview"
   },
   "devDependencies": {
-    "typescript": "^4.3.2",
     "vite": "^2.5.1"
   },
   "dependencies": {
