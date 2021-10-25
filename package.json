@@ -7,11 +7,11 @@
     "serve": "vite preview"
   },
   "devDependencies": {
-    "typescript": "^4.3.2",
-    "vite": "^2.5.1"
+    "typescript": "^4.4.4",
+    "vite": "^2.6.11"
   },
   "dependencies": {
-    "@babylonjs/core": "^5.0.0-alpha.38",
-    "@babylonjs/loaders": "^5.0.0-alpha.38"
+    "@babylonjs/core": "^5.0.0-alpha.57",
+    "@babylonjs/loaders": "^5.0.0-alpha.57"
   }
 }
