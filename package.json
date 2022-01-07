@@ -17,4 +17,5 @@
     "@babylonjs/materials": "^5.0.0-alpha.65",
     "@babylonjs/serializers": "^5.0.0-alpha.65",
     "@babylonjs/viewer": "^5.0.0-alpha.65"
+  }
 }
