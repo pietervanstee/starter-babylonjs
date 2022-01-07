@@ -11,11 +11,7 @@
     "vite": "^2.6.11"
   },
   "dependencies": {
-    "@babylonjs/core": "^5.0.0-beta.57",
-    "@babylonjs/inspector": "^5.0.0-beta.57",
-    "@babylonjs/loaders": "^5.0.0-beta.57",
-    "@babylonjs/materials": "^5.0.0-beta.57",
-    "@babylonjs/serializers": "^5.0.0-beta.57",
-    "@babylonjs/viewer": "^5.0.0-beta.57"
+    "@babylonjs/core": "^5.0.0-alpha.57",
+    "@babylonjs/loaders": "^5.0.0-alpha.57"
   }
 }
